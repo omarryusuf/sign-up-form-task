@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(175deg, #e0dede 50%, #fcbce3 50%, #9362e2);
+	font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 227px;
+}
+
+#form-container{
+    justify-content: space-evenly;
+    display: flex;
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    height: 350px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+        
+}
+
+label{
+    margin-left: 35px;
+    margin-bottom: 20PX;
+    
+}
+
+input{
+    height: 23px;
+    margin-bottom: 15px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+}
+
+#password{width: 135px;}
+
+#messaged{
+    display: none;
+}
+
+#age-display{
+    position: absolute;
+    top: 42%;
+    left: 52.7%;
+}
+
+#dob{
+    position: absolute;
+    top: 36%;
+    left: 58%;
+    width: 131px;
+}
+
+.dob-lbl{
+    position: absolute;
+    top: 36.6%;
+    left: 50.5%;
+}
+
+.msg-lbl{
+    position: absolute;
+    top: 50%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+
+P{
+    margin-top: 0px;
+    margin-left: 35px;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 600;
+ }
+
+textarea {
+    resize: none;
+    width: 470px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: 54%;
+    left: 35%;
+}
+
+#sign-btn{
+    position: absolute;
+    top: 64%;
+    left: 47.5%;
+    border-radius: 7px;
+    padding: 4px 14px;
+    background-color: #f6eff4;
+}

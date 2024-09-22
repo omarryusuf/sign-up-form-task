@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="form-container">
+    <form id="signupForm">
+        <h1>signup application</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="Email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" onchange="validatePassword()" maxlength="12" required>
+        <p id="messaged">password: <span id="strength"></span> </p>
+
+        <label class="dob-lbl" for="dob">birth date:</label>
+        <input type="date" id="dob" placeholder="Date of Birth" onchange="calculateAge()" required><br>
+        <div class="age-display" id="age-display"></div>
+
+        <label class="msg-lbl" for="message">What are you looking for?</label>
+		<textarea name="message" id="message" placeholder="Enter your requests here..."></textarea><br>
+  
+        <button id="sign-btn" type="submit">Sign Up</button>
+    </form>
+</div>
+
+<Script src="main.js"></Script>
+</body>
+</html>
